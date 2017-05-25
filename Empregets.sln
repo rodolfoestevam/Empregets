@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "view", "TESTEDECONEXAO\view.csproj", "{736576EE-C747-43B3-9684-FE7C79C9ABE1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca", "Biblioteca\Biblioteca.csproj", "{B038E42D-1326-4C1D-B9F0-4510F2980FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewApplication", "ViewApplication\ViewApplication.csproj", "{930053EB-70B9-4887-BF6E-4E62650D7E45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{736576EE-C747-43B3-9684-FE7C79C9ABE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{736576EE-C747-43B3-9684-FE7C79C9ABE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{736576EE-C747-43B3-9684-FE7C79C9ABE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{736576EE-C747-43B3-9684-FE7C79C9ABE1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B038E42D-1326-4C1D-B9F0-4510F2980FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B038E42D-1326-4C1D-B9F0-4510F2980FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B038E42D-1326-4C1D-B9F0-4510F2980FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B038E42D-1326-4C1D-B9F0-4510F2980FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930053EB-70B9-4887-BF6E-4E62650D7E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930053EB-70B9-4887-BF6E-4E62650D7E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930053EB-70B9-4887-BF6E-4E62650D7E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930053EB-70B9-4887-BF6E-4E62650D7E45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

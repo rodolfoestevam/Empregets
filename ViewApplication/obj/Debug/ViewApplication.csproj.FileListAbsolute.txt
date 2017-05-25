@@ -1,0 +1,11 @@
+C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\bin\Debug\ViewApplication.exe.config
+C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\obj\Debug\ViewApplication.csprojResolveAssemblyReference.cache
+C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\obj\Debug\ViewApplication.Form1.resources
+C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\obj\Debug\ViewApplication.Properties.Resources.resources
+C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\obj\Debug\ViewApplication.csproj.GenerateResource.Cache
+C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\bin\Debug\ViewApplication.exe
+C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\bin\Debug\ViewApplication.pdb
+C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\bin\Debug\Biblioteca.dll
+C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\bin\Debug\Biblioteca.pdb
+C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\obj\Debug\ViewApplication.exe
+C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\obj\Debug\ViewApplication.pdb
