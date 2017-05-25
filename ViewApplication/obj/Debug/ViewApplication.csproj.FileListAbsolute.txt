@@ -9,3 +9,6 @@ C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplic
 C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\bin\Debug\Biblioteca.pdb
 C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\obj\Debug\ViewApplication.exe
 C:\Users\Rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\ViewApplication\obj\Debug\ViewApplication.pdb
+C:\Users\Rodolfo\Documents\GitHub\Empregets\ViewApplication\bin\Debug\ViewApplication.exe.config
+C:\Users\Rodolfo\Documents\GitHub\Empregets\ViewApplication\obj\Debug\ViewApplication.exe
+C:\Users\Rodolfo\Documents\GitHub\Empregets\ViewApplication\obj\Debug\ViewApplication.pdb

@@ -1,5 +1,4 @@
-﻿using Biblioteca.classesBasicas;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.atendente
 {
-    public class Atendente : Pessoa
+    class NegAtendente
     {
-        public int ID_Atendente { get; set; }
     }
 }

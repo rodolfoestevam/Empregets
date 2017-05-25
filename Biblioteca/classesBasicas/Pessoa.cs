@@ -13,8 +13,7 @@ namespace Biblioteca.classesBasicas
         public String Telefone { get; set; }
         public String Celular { get; set; }
         public String Email { get; set; }
-        public char sexo { get; set; }
-        public String Numero { get; set; }
+        public string sexo { get; set; }
         public Endereco Endereco { get; set; }
 
         public Pessoa()
