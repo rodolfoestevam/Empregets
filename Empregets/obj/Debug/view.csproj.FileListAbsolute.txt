@@ -1,0 +1,3 @@
+c:\users\rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\bin\Debug\TESTEDECONEXAO.exe.config
+c:\users\rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\obj\Debug\TESTEDECONEXAO.exe
+c:\users\rodolfo\Documents\Visual Studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\obj\Debug\TESTEDECONEXAO.pdb

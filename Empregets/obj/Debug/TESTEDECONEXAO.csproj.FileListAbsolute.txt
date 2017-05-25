@@ -1,0 +1,11 @@
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\bin\Debug\TESTEDECONEXAO.exe.config
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\bin\Debug\TESTEDECONEXAO.exe
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\bin\Debug\TESTEDECONEXAO.pdb
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\bin\Debug\Biblioteca.dll
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\bin\Debug\Biblioteca.pdb
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\obj\Debug\TESTEDECONEXAO.csprojResolveAssemblyReference.cache
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\obj\Debug\TESTEDECONEXAO.Form1.resources
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\obj\Debug\TESTEDECONEXAO.Properties.Resources.resources
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\obj\Debug\TESTEDECONEXAO.csproj.GenerateResource.Cache
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\obj\Debug\TESTEDECONEXAO.exe
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\TESTEDECONEXAO\obj\Debug\TESTEDECONEXAO.pdb

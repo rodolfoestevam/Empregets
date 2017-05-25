@@ -1,0 +1,5 @@
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\Biblioteca\bin\Debug\Biblioteca.dll
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\Biblioteca\bin\Debug\Biblioteca.pdb
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyReference.cache
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\Biblioteca\obj\Debug\Biblioteca.dll
+c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\Biblioteca\obj\Debug\Biblioteca.pdb
