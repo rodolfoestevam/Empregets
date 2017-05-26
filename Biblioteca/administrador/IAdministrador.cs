@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Biblioteca.contrato_diarista
+namespace Biblioteca.administrador
 {
-   public class ContratoDiarista
+    interface IAdministrador
     {
     }
 }

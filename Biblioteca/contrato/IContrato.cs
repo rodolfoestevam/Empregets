@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.contrato
 {
-    interface IContrato
+   public interface IContrato
     {
         void Cadastrar(Contrato contrato);
 

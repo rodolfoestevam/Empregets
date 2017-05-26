@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.contrato
 {
-    interface ContratoNeg
+    public class ContratoNeg : IContrato
     {
+        public void Alterar(Contrato contrato)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Cadastrar(Contrato contrato)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Contrato> Listar(Contrato filtro)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remover(Contrato contrato)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

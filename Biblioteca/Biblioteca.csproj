@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="administrador\Administrador.cs" />
+    <Compile Include="administrador\AdministradorBD.cs" />
+    <Compile Include="administrador\AdministradorNeg.cs" />
+    <Compile Include="administrador\IAdministrador.cs" />
     <Compile Include="atendente\Atendente.cs" />
     <Compile Include="atendente\AtendenteBD.cs" />
     <Compile Include="atendente\IAtendente.cs" />
