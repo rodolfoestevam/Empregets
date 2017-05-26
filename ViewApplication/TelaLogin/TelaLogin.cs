@@ -20,8 +20,7 @@ namespace ViewApplication.TelaLogin
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TelaPrincipal tp = new TelaPrincipal();
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
