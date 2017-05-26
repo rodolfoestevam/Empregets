@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.especialidade
 {
-    class IEspecialidade
+    public class IEspecialidade
     {
+        public int ID_Especialidade { get; set; }
     }
 }
