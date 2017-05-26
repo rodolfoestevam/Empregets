@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Biblioteca.utils;
+using Biblioteca.Utils;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -7,25 +9,26 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.atendente
 {
-    public class AtendenteBD : Utils.ConexaoSQL, IAtendente
+    public class AtendenteBD : IAtendente
     {
 
         public void Cadastrar(Atendente atendente)
         {
             try
             {
-                this.abrirConexao();
+                IConexaoSQL con = ConexaoSQL.getInstance();
+                SqlConnection instanceOfConnection = con.abrirConexao();
                 string sql = "INSERT INTO Atendente (ID_Atendente, Nome, CPF, Telefone, Celular, Email, Sexo, Logradouro, Numero," +
                     "Complemento, UF, Bairro, Cidade, CEP)" 
                     +
                     "VALUES (@ID_Atendente, @Nome, @CPF, @Telefone, @Celular, @Email, @Sexo, @Logradouro, @Numero," +
                     "@Complemento, @UF, @Bairro, @Cidade);";
 
-                SqlCommand cmd = new SqlCommand(sql, this.sqlConn);
+                SqlCommand cmd = new SqlCommand(sql, instanceOfConnection);
 
                 cmd.ExecuteNonQuery();
                 cmd.Dispose();
-                this.fecharConexao();
+                con.fecharConexao();
 
 
             }
@@ -39,15 +42,16 @@ namespace Biblioteca.atendente
         {
             try
             {
-                this.abrirConexao();
+                IConexaoSQL con = ConexaoSQL.getInstance();
+                SqlConnection instanceOfConnection = con.abrirConexao();
                 string sql = "UPDATE Atendente SET ID_Atendente = @ID_Atendente, @Nome, @CPF, @Telefone," +
                     "@Celular, @Email, @Sexo, @Logradouro, @Numero," +
                     "@Complemento, @UF, @Bairro, @Cidade;";
 
-                SqlCommand cmd = new SqlCommand(sql, this.sqlConn);
+                SqlCommand cmd = new SqlCommand(sql, instanceOfConnection);
                 cmd.ExecuteNonQuery();
                 cmd.Dispose();
-                this.fecharConexao();
+                con.fecharConexao();
             }
             catch (Exception err)
             {
@@ -60,14 +64,15 @@ namespace Biblioteca.atendente
         {
             try
             {
-                this.abrirConexao();
+                IConexaoSQL con = ConexaoSQL.getInstance();
+                SqlConnection instanceOfConnection = con.abrirConexao();
 
                 string sql = "DELETE Atendente WHERE ID_Atendente = @ID_Atendente";
 
-                SqlCommand cmd = new SqlCommand(sql, this.sqlConn);
+                SqlCommand cmd = new SqlCommand(sql, instanceOfConnection);
                 cmd.ExecuteNonQuery();
                 cmd.Dispose();
-                this.fecharConexao();
+                con.fecharConexao();
             }
             catch (Exception err)
             {
@@ -81,12 +86,13 @@ namespace Biblioteca.atendente
             List<Atendente> retornoList = new List<Atendente>();
             try
             {
-                this.abrirConexao();
+                IConexaoSQL con = ConexaoSQL.getInstance();
+                SqlConnection instanceOfConnection = con.abrirConexao();
 
                 string sql = "SELECT ID_Atendente, Nome, CPF, Telefone, Celular, Email, Sexo, Logradouro, Numero," +
                     "Complemento, UF, Bairro, Cidade, CEP FROM Atendente WHERE 1=1;";
 
-                SqlCommand cmd = new SqlCommand(sql, this.sqlConn);
+                SqlCommand cmd = new SqlCommand(sql, instanceOfConnection);
                 SqlDataReader DBReader = cmd.ExecuteReader();
 
                 while (DBReader.Read())
@@ -98,7 +104,7 @@ namespace Biblioteca.atendente
 
                 DBReader.Close();
                 cmd.Dispose();
-                this.fecharConexao();
+                con.fecharConexao();
             }
             catch (Exception e)
             {
