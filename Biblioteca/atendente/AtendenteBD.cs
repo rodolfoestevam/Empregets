@@ -70,7 +70,7 @@ namespace Biblioteca.atendente
             }
             catch (Exception err)
             {
-                throw new Exception("Erro ao remover atendente");
+                throw new Exception("Erro ao remover atendente" + err.Message);
             }
         }
 

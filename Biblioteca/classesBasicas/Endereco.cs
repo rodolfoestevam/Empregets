@@ -8,13 +8,13 @@ namespace Biblioteca.classesBasicas
 {
     public class Endereco
     {
-        private String Logradouro { get; set; }
-        private String Numero { get; set; }
-        private String Complemento { get; set; }
-        private String UF { get; set; }
-        private String Bairro { get; set; }
-        private String Cidade { get; set; }
-        private String CEP { get; set; }
+        public String Logradouro { get; set; }
+        public String Numero { get; set; }
+        public String Complemento { get; set; }
+        public String UF { get; set; }
+        public String Bairro { get; set; }
+        public String Cidade { get; set; }
+        public String CEP { get; set; }
 
     }
 }
