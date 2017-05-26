@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.cliente
 {
-    class ICliente
+    interface ICliente
     {
+        void Cadastrar(Cliente cliente);
+
+        void Alterar(Cliente cliente);
+
+        void Remover(Cliente cliente);
+
+        List<Cliente> Listar(Cliente filtro);
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.contrato
 {
-    class Contrato
+   public class Contrato
     {
     }
 }

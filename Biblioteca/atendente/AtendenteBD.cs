@@ -83,7 +83,7 @@ namespace Biblioteca.atendente
             {
                 this.abrirConexao();
 
-                string sql = "SELECT ID_Atendente Nome, CPF, Telefone, Celular, Email, Sexo, Logradouro, Numero," +
+                string sql = "SELECT ID_Atendente, Nome, CPF, Telefone, Celular, Email, Sexo, Logradouro, Numero," +
                     "Complemento, UF, Bairro, Cidade, CEP FROM Atendente WHERE 1=1;";
 
                 SqlCommand cmd = new SqlCommand(sql, this.sqlConn);
