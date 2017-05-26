@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.localidade
 {
-    class Localidade
+    public class Localidade
     {
     }
 }
