@@ -41,8 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="atendente\Atendente.cs" />
+    <Compile Include="atendente\AtendenteBD.cs" />
+    <Compile Include="atendente\IAtendente.cs" />
+    <Compile Include="atendente\AtendenteNeg.cs" />
     <Compile Include="classesBasicas\Endereco.cs" />
     <Compile Include="classesBasicas\Pessoa.cs" />
+    <Compile Include="utils\CepUtils.cs" />
     <Compile Include="utils\ConexaoSQL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

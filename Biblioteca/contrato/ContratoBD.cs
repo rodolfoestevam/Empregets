@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Biblioteca.atendente
+namespace Biblioteca.contrato
 {
-    class AtendenteNeg
+    class ContratoBD
     {
     }
 }

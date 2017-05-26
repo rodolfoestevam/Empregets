@@ -8,13 +8,16 @@ namespace Biblioteca.classesBasicas
 {
     public abstract class Pessoa
     {
-        public String Nome { get; set; }
-        public String RG { get; set; }
-        public String Telefone { get; set; }
-        public String Celular { get; set; }
-        public String Email { get; set; }
-        public String sexo { get; set; }
-        public Endereco Endereco { get; set; }
+        private String Nome { get; set; }
+        private String RG { get; set; }
+        private string CPF { get; set; }
+        private String Telefone { get; set; }
+        private String Celular { get; set; }
+        private String Email { get; set; }
+        private DateTime dataNascimento { get; set; }
+        private String sexo { get; set; }
+
+        private Endereco Endereco { get; set; }
 
         public Pessoa()
         {
