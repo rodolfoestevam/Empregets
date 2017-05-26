@@ -3,6 +3,7 @@ c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\Biblioteca
 c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyReference.cache
 c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\Biblioteca\obj\Debug\Biblioteca.dll
 c:\users\rodolfo\documents\visual studio 2015\Projects\TESTEDECONEXAO\Biblioteca\obj\Debug\Biblioteca.pdb
-C:\Users\Rodolfo\Documents\GitHub\Empregets\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyReference.cache
+C:\Users\Rodolfo\Documents\GitHub\Empregets\Biblioteca\bin\Debug\Biblioteca.dll
+C:\Users\Rodolfo\Documents\GitHub\Empregets\Biblioteca\bin\Debug\Biblioteca.pdb
 C:\Users\Rodolfo\Documents\GitHub\Empregets\Biblioteca\obj\Debug\Biblioteca.dll
 C:\Users\Rodolfo\Documents\GitHub\Empregets\Biblioteca\obj\Debug\Biblioteca.pdb

@@ -16,7 +16,8 @@ namespace Biblioteca.atendente
             {
                 this.abrirConexao();
                 string sql = "INSERT INTO Atendente (ID_Atendente, Nome, CPF, Telefone, Celular, Email, Sexo, Logradouro, Numero," +
-                    "Complemento, UF, Bairro, Cidade, CEP)" +
+                    "Complemento, UF, Bairro, Cidade, CEP)" 
+                    +
                     "VALUES (@ID_Atendente, @Nome, @CPF, @Telefone, @Celular, @Email, @Sexo, @Logradouro, @Numero," +
                     "@Complemento, @UF, @Bairro, @Cidade);";
 
@@ -39,7 +40,7 @@ namespace Biblioteca.atendente
             try
             {
                 this.abrirConexao();
-                string sql = "UPDATE Atendente SET ID_Atendente =@ID_Atendente, @Nome, @CPF, @Telefone," +
+                string sql = "UPDATE Atendente SET ID_Atendente = @ID_Atendente, @Nome, @CPF, @Telefone," +
                     "@Celular, @Email, @Sexo, @Logradouro, @Numero," +
                     "@Complemento, @UF, @Bairro, @Cidade;";
 
@@ -83,7 +84,7 @@ namespace Biblioteca.atendente
                 this.abrirConexao();
 
                 string sql = "SELECT ID_Atendente Nome, CPF, Telefone, Celular, Email, Sexo, Logradouro, Numero," +
-                    "Complemento, UF, Bairro, Cidade, CEP FROM Atendente WHERE true;";
+                    "Complemento, UF, Bairro, Cidade, CEP FROM Atendente WHERE 1=1;";
 
                 SqlCommand cmd = new SqlCommand(sql, this.sqlConn);
                 SqlDataReader DBReader = cmd.ExecuteReader();
