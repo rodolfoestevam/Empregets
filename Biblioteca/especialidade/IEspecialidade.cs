@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.especialidade
 {
-    public class IEspecialidade
+    public interface IEspecialidade
     {
-        public int ID_Especialidade { get; set; }
+        void CadastrarEspecialidade(Especialidade especialidade);
+        void AtualizarEspecialidade(Especialidade especialidade);
+        void RemoverEspecialidade(Especialidade especialidade);
+        List<Especialidade> ListarEspecialidade(Especialidade filtro);
+        bool VerificarExistenciaEspecialidade(Especialidade especialidade);
     }
 }
