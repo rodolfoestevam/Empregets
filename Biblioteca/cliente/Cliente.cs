@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Biblioteca.contrato
+namespace Biblioteca.cliente
 {
-    interface ContratoNeg
+    class Cliente
     {
     }
 }

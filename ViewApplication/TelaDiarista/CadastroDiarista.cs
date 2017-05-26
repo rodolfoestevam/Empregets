@@ -46,5 +46,15 @@ namespace ViewApplication.TelaDiarista
         {
 
         }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CadastroDiarista_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

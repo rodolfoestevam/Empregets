@@ -46,10 +46,25 @@
     <Compile Include="atendente\AtendenteNeg.cs" />
     <Compile Include="classesBasicas\Endereco.cs" />
     <Compile Include="classesBasicas\Pessoa.cs" />
+    <Compile Include="cliente\Cliente.cs" />
+    <Compile Include="contrato\Contrato.cs" />
+    <Compile Include="contrato\ContratoBD.cs" />
+    <Compile Include="contrato\ContratoNeg.cs" />
+    <Compile Include="contrato\IContrato.cs" />
+    <Compile Include="diarista\Diarista.cs" />
+    <Compile Include="diarista\DiaristaBD.cs" />
+    <Compile Include="diarista\DiaristaNeg.cs" />
+    <Compile Include="diarista\IDiarista.cs" />
+    <Compile Include="especialidade\Especialidade.cs" />
+    <Compile Include="especialidade\EspecialidadeBD.cs" />
+    <Compile Include="especialidade\EspecialidadeNeg.cs" />
+    <Compile Include="especialidade\IEspecialidade.cs" />
     <Compile Include="utils\CepUtils.cs" />
     <Compile Include="utils\ConexaoSQL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="utils\ValidacaoUtils.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
