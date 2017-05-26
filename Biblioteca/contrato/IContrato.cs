@@ -8,5 +8,12 @@ namespace Biblioteca.contrato
 {
     interface IContrato
     {
+        void Cadastrar(Contrato contrato);
+
+        void Alterar(Contrato contrato);
+
+        void Remover(Contrato contrato);
+
+        List<Contrato> Listar(Contrato filtro);
     }
 }
